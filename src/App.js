@@ -1,7 +1,10 @@
 import whatsappIcon from './img/whatsapp-icon.svg';
 import plumberPhoto from './img/plumber-photo.png';
 import personPhoto from './img/person-photo.png';
-import customerPhoto from './img/customer-photo.png'
+import customerPhoto from './img/customer-photo.png';
+import facebookIcon from './img/facebook-icon.svg';
+import whatsappIconSquare from './img/whatsapp-icon-square.svg';
+import instagramIcon from './img/instagram-icon.svg';
 import './App.css';
 
 function App() {
@@ -41,7 +44,19 @@ function App() {
           <p className="font-fredoka text-4xl pb-8">. . .</p>
         </section>
       </main>
-      <footer className="bg-secondary"></footer>
+      <footer className="bg-secondary">
+        <div className="flex flex-row pt-8 pb-8 justify-around">
+          <a href="https://stackoverflow.com/questions/42051528/how-do-i-make-an-image-clickable">
+            <img alt="Ícono de facebook para contacto" src={facebookIcon} />
+          </a>
+          <a href="https://stackoverflow.com/questions/42051528/how-do-i-make-an-image-clickable">
+            <img alt="Ícono de whatsapp para contacto" src={whatsappIconSquare} />
+          </a>
+          <a href="https://stackoverflow.com/questions/42051528/how-do-i-make-an-image-clickable">
+            <img alt="Ícono de instagram para contacto" src={instagramIcon} />
+          </a>  
+        </div>
+      </footer>
     </div>
   );
 }
