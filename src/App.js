@@ -1,4 +1,5 @@
 import whatsappIcon from './img/whatsapp-icon.svg';
+import plumberPhoto from './img/plumber-photo.png';
 import './App.css';
 
 function App() {
@@ -11,7 +12,17 @@ function App() {
         </a>
       </header>
       <main>
-        <section className="bg-secondary"></section>
+        <section className="bg-secondary">
+          <h2 className="text-white font-sans font-bold text-lg text-center pt-9">Lorem Ipsum</h2>
+          <p className="text-white font-sans text-center pt-6 pl-2 pr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoLorem ipsum dolor sit amet, conse</p>
+          <div className="pl-4 pr-4">
+            <img alt="Imagen de plomero trabajando" src={plumberPhoto} className="mt-4"/>
+            <img alt="Imagen de plomero trabajando" src={plumberPhoto} className="mt-4"/>
+            <img alt="Imagen de plomero trabajando" src={plumberPhoto} className="mt-4"/>
+            <img alt="Imagen de plomero trabajando" src={plumberPhoto} className="mt-4"/>
+            <img alt="Imagen de plomero trabajando" src={plumberPhoto} className="mt-4"/>
+          </div>
+        </section>
         <section></section>
         <section className="bg-primary"></section>
       </main>
