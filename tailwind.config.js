@@ -9,6 +9,12 @@ module.exports = {
         primary: colors.blue[500],
         secondary: colors.blue[900],
       },
+      backgroundImage: theme => ({
+        'plumber-hero': "url('/src/img/hero-plumber.png')",
+       }),
+      fontFamily: {
+        'fredoka': ['Fredoka One','cursive'],
+      }, 
     },
   },
   variants: {
