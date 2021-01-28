@@ -1,6 +1,7 @@
 import whatsappIcon from './img/whatsapp-icon.svg';
 import plumberPhoto from './img/plumber-photo.png';
 import personPhoto from './img/person-photo.png';
+import customerPhoto from './img/customer-photo.png'
 import './App.css';
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       </header>
       <main>
         <section className="bg-secondary">
-          <h2 className="text-white font-sans font-bold text-lg text-center pt-9">Lorem Ipsum</h2>
+          <h2 className="text-white font-sans font-bold text-lg text-center pt-8">Lorem Ipsum</h2>
           <p className="text-white font-sans text-center pt-6 pl-2 pr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoLorem ipsum dolor sit amet, conse</p>
           <div className="pl-4 pr-4">
             <img alt="Imagen de plomero trabajando" src={plumberPhoto} className="mt-4"/>
@@ -30,7 +31,15 @@ function App() {
           <p className="text-center text-gray-700 text-lg mt-8 pl-4 pr-4">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ma”</p>
           <img alt="Foto del profesional" src={personPhoto}/>
         </section>
-        <section className="bg-primary"></section>
+        <section className="bg-primary text-white font-sans pl-4 pr-4 text-center">
+          <p className="font-bold text-xl pt-8">¿Qué piensan<br/>nuestros clientes?</p>
+          <p className="text-8xl font-fredoka mt-6">“</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+          <div className="flex justify-center">
+            <img alt="Foto del cliente" src={customerPhoto} className="mt-6"/>  
+          </div>
+          <p className="font-fredoka text-4xl pb-8">. . .</p>
+        </section>
       </main>
       <footer className="bg-secondary"></footer>
     </div>
